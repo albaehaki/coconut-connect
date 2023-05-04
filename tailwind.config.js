@@ -11,7 +11,12 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'my_bg_image' : "url('/images/13.jpg')",
       },
+      textShadow: {
+        default: '0 2px 5px rgba(0, 0, 0, 0.5)',
+        // tambahkan konfigurasi tambahan di sini
+      }
     },
   },
   plugins: [],
