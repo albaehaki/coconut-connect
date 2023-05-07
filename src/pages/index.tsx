@@ -8,6 +8,7 @@ import DeskripsionSection from "@/components/deskripsionSection";
 import ProdukFetures from "@/components/produkFetures";
 import CTAsection from "@/components/CTAsection";
 import Contact from "@/components/contact";
+import WhyUsSection from '@/components/whyUsSection';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,8 +19,9 @@ export default function Home() {
     <HeroSection />
     {/* <DeskripsionSection /> */}
     <ProdukFetures />
+    <WhyUsSection />
     <CTAsection />
-    <Contact />
+    {/* <Contact /> */}
   </>
  
   )

@@ -35,8 +35,8 @@ export default function Example() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
-            <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+            <span className="text-black font-bold text-lg">Coconut Connect</span>
+            {/* <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -51,10 +51,10 @@ export default function Example() {
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
-            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
+            {/* <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
               Product
               <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
-            </Popover.Button>
+            </Popover.Button> */}
 
             <Transition
               as={Fragment}
@@ -66,7 +66,7 @@ export default function Example() {
               leaveTo="opacity-0 translate-y-1"
             >
               <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
-                <div className="p-4">
+                {/* <div className="p-4">
                   {products.map((item) => (
                     <div
                       key={item.name}
@@ -84,7 +84,7 @@ export default function Example() {
                       </div>
                     </div>
                   ))}
-                </div>
+                </div> */}
                 <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
                   {callsToAction.map((item) => (
                     <a
@@ -102,13 +102,13 @@ export default function Example() {
           </Popover>
 
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Features
+            About
           </a>
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             Marketplace
           </a>
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Company
+            Contact Us
           </a>
         </Popover.Group>
         {/* <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -122,12 +122,12 @@ export default function Example() {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
-              <img
+            <span className="text-black font-bold text-lg">Coconut Connect</span>
+              {/* <img
                 className="h-8 w-auto"
                 src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                 alt=""
-              />
+              /> */}
             </a>
             <button
               type="button"
@@ -151,7 +151,7 @@ export default function Example() {
                           aria-hidden="true"
                         />
                       </Disclosure.Button>
-                      <Disclosure.Panel className="mt-2 space-y-2">
+                      {/* <Disclosure.Panel className="mt-2 space-y-2">
                         {[...products, ...callsToAction].map((item) => (
                           <Disclosure.Button
                             key={item.name}
@@ -162,7 +162,7 @@ export default function Example() {
                             {item.name}
                           </Disclosure.Button>
                         ))}
-                      </Disclosure.Panel>
+                      </Disclosure.Panel> */}
                     </>
                   )}
                 </Disclosure>
@@ -185,14 +185,14 @@ export default function Example() {
                   Company
                 </a>
               </div>
-              <div className="py-6">
+              {/* <div className="py-6">
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Log in
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </Dialog.Panel>
